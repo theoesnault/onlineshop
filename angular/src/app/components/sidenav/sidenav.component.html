@@ -1,0 +1,21 @@
+<mat-sidenav-container class="fullheight">
+  <mat-sidenav mode="side" opened>
+    <div class="buttonlist">
+      <button mat-button routerLink="/categories"><mat-icon>category</mat-icon></button>
+      <hr>
+      <button mat-button routerLink="/account"><mat-icon>account_circle</mat-icon></button>
+      <hr>
+      <button mat-button routerLink="/favorites"><mat-icon>favorite</mat-icon></button>
+      <hr>
+      <button mat-button routerLink="/messages"><mat-icon>forum</mat-icon></button>
+      <hr>
+      <button mat-button routerLink="/settings"><mat-icon>settings</mat-icon></button>
+      <hr>
+    </div>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div class="container">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

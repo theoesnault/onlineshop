@@ -1,0 +1,28 @@
+.card-list{
+  border:1px solid green;
+}
+
+.card{
+  border: 1px solid red;
+  border-radius: 5px;
+  display: table-cell;
+
+  // sizing
+  height: 500px;
+  width: 278.46px;
+}
+
+.card-title{
+  text-align: center;
+  font-size: 20px;
+}
+
+.card-line{
+  display: flex;
+  width: 100%;
+}
+
+.card-column{
+  text-align: center;
+  width: 100%;
+}
